@@ -14,7 +14,7 @@ class db:
 		else:
 			if len(f[0]) == 1:
 				f = [i[0] for i in f]
-			if len(f) == 1:
+				if len(f) == 1:
 					f = f[0]
 			return f
 
